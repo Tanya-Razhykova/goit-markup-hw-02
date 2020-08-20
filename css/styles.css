@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+    color:#2196F3;
+}
+
+.email:hover,
+.email:focus {
+    color: #2196F3;
+}
