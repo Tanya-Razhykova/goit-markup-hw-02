@@ -1,7 +1,15 @@
+:root {
+    --color-black: #212121;
+    --color-blue: #2196F3;
+    --color-white: #ffffff;
+    --color-grey: #757575;
+    --color-light-grey: rgba(255, 255, 255, 0.6);
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: #212121;
+    color: var(--color-black);
 }
 
 .logo {
@@ -9,18 +17,18 @@ body {
 }
 
 .logo-web {
-    color: #2196F3;
+    color: var(--color-blue);
 }
 
 .link-nav:hover,
 .link-nav:focus,
 .link-nav:active {
-    color:#2196F3;
+    color: var(--color-blue);
 }
 
 .email:hover,
 .email:focus {
-    color: #2196F3;
+    color: var(--color-blue);
 }
 
 .main-title {
@@ -30,7 +38,7 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #fff
+    color: var(--color-white);
 }
 
 .main-title-3 {
@@ -46,7 +54,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-grey);
 }
 
 .main-title-2 {
@@ -71,7 +79,7 @@ body {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-grey);
 }
 
 .post {
@@ -79,7 +87,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #fff
+    color: var(--color-white);
 }
 
 .mail-tel{
@@ -87,7 +95,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--color-light-grey);
 }
 
 .portfolio-filter {
@@ -110,12 +118,12 @@ body {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--color-grey);
 }
 
 .link {
     text-decoration: none;
-    color:  #212121;
+    color: var(--color-black);
     font-style: normal;
 }
 
@@ -127,5 +135,5 @@ button {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
